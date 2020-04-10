@@ -1,4 +1,4 @@
-package com.apptreesoftware.barcodescanexample
+package de.mintware.barcode_scan_example
 
 import com.apptreesoftware.barcodescan.BarcodeScanPlugin
 import io.flutter.embedding.android.FlutterActivity
