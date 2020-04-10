@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.yourcompany.barcodescanexample">
+    package="com.apptreesoftware.barcodescanexample">
 
     <!-- The INTERNET permission is required for development. Specifically,
          flutter needs it to communicate with the running application
@@ -20,7 +20,7 @@
             android:hardwareAccelerated="true"
             android:exported="true"
             android:launchMode="singleTop"
-            android:name="com.apptreesoftware.barcodescanexample.EmbeddingV1Activity"
+            android:name=".EmbeddingV1Activity"
             android:theme="@style/LaunchTheme"
             android:windowSoftInputMode="adjustResize">
 
@@ -33,7 +33,7 @@
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection"
             android:hardwareAccelerated="true"
             android:launchMode="singleTop"
-            android:name="com.apptreesoftware.barcodescanexample.MainActivity"
+            android:name=".MainActivity"
             android:theme="@style/LaunchTheme"
             android:windowSoftInputMode="adjustResize">
             <!-- Specify that the launch screen should continue being displayed -->
